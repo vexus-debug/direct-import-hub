@@ -2,6 +2,7 @@ import Layout from "@/site/components/Layout";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
+import { LocalSeo } from "@/site/components/LocalSeo";
   ArrowRight,
   MessageCircle,
   Check,
@@ -493,6 +494,9 @@ const DentalClinicFeatures = () => {
             </div>
           </motion.section>
         </div>
+      </div>
+      <div className="mx-auto max-w-6xl px-6 pb-24">
+        <LocalSeo specialty="Dental clinic features" />
       </div>
     </Layout>
   );

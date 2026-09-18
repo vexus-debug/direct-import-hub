@@ -11,6 +11,7 @@ import shotPrescriptions from "@/assets/eye-sales/eye-prescriptions.png";
 import shotSurgery from "@/assets/eye-sales/eye-surgery.png";
 import shotContactLenses from "@/assets/eye-sales/eye-contact-lenses.png";
 import shotAppointments from "@/assets/eye-sales/appointments.png";
+import { LocalSeo } from "@/site/components/LocalSeo";
 
 const Screenshot = ({
   src,
@@ -523,6 +524,9 @@ const EyeClinics = () => {
             </p>
           </motion.section>
         </div>
+      </div>
+      <div className="mx-auto max-w-6xl px-6 pb-24">
+        <LocalSeo specialty="Eye clinics" />
       </div>
     </Layout>
   );
