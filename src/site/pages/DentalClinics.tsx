@@ -20,6 +20,7 @@ import shotCharts from "@/assets/dental-sales/dental-charts.png";
 import shotBilling from "@/assets/dental-sales/billing.png";
 import shotInventory from "@/assets/dental-sales/inventory.png";
 import shotDashboard from "@/assets/dental-sales/dashboard.png";
+import { LocalSeo } from "@/site/components/LocalSeo";
 
 const WHATSAPP = "https://wa.me/2349017758165";
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -210,6 +211,9 @@ const DentalClinics = () => {
             <p className="mt-6 text-sm text-muted-foreground/60">Clinexus, clinic management built for how you actually work.</p>
           </motion.section>
         </div>
+      </div>
+      <div className="mx-auto max-w-6xl px-6 pb-24">
+        <LocalSeo specialty="Dental clinics" />
       </div>
     </Layout>
   );
