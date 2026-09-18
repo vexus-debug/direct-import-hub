@@ -17,12 +17,12 @@ const publicMetadata: Record<string, Omit<SeoConfig, "indexable">> = {
       "Run a calmer, more profitable clinic with Clinexus — appointments, records, billing, labs, inventory, and patient care in one platform.",
   },
   "/industries": {
-    title: "Clinic Management Software for Every Specialty | Clinexus",
+    title: "Clinic Management Software in Lagos, Nigeria | Clinexus",
     description:
-      "Explore clinic management tools built for dental, eye care, diagnostic, family, and specialty practices.",
+      "Compare Clinexus clinic management tools for dental, eye care, diagnostic and specialty practices across Lagos and Nigeria.",
   },
   "/industries/eye-clinics": {
-    title: "Eye Clinic Management Software | Clinexus",
+    title: "Eye Clinic Management Software in Lagos, Nigeria | Clinexus",
     description:
       "Manage eye exams, prescriptions, lenses, diagnostics, surgery bookings, and patient records with Clinexus.",
   },
@@ -32,7 +32,7 @@ const publicMetadata: Record<string, Omit<SeoConfig, "indexable">> = {
       "See the Clinexus features that help optometry and eye clinics manage exams, prescriptions, inventory, and follow-up care.",
   },
   "/industries/dental-clinics": {
-    title: "Dental Clinic Management Software | Clinexus",
+    title: "Dental Clinic Management Software in Lagos, Nigeria | Clinexus",
     description:
       "Manage dental charts, treatment plans, recalls, billing, inventory, and patient records in one dental clinic platform.",
   },
@@ -42,19 +42,19 @@ const publicMetadata: Record<string, Omit<SeoConfig, "indexable">> = {
       "Explore Clinexus tools for dental charting, treatment plans, recalls, billing, imaging, and clinic operations.",
   },
   "/about": {
-    title: "About Clinexus | Clinic Operations, Simplified",
+    title: "About Clinexus | Clinic Software Team in Lagos, Nigeria",
     description:
-      "Learn why Clinexus helps healthcare teams spend less time on administration and more time with patients.",
+      "Meet the Lagos-based team building Clinexus, and see why Nigerian clinics use it to cut admin work and focus on patients.",
   },
   "/contact": {
-    title: "Contact Clinexus | Clinic Management Support",
+    title: "Contact Clinexus | Clinic Software Support in Lagos, Nigeria",
     description:
-      "Talk to the Clinexus team about simplifying your clinic operations, records, billing, and patient experience.",
+      "Reach the Clinexus team in Lagos by WhatsApp or email for demos, pricing and onboarding for your Nigerian clinic.",
   },
   "/login": {
-    title: "Log in | Clinexus",
+    title: "Log in to Clinexus | Clinic Management Account",
     description:
-      "Log in to your Clinexus workspace to manage appointments, records, billing, labs, and inventory.",
+      "Sign in to your Clinexus clinic workspace to manage appointments, patient records, billing, labs and inventory.",
   },
   "/privacy": {
     title: "Privacy Policy | Clinexus",
