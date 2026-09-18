@@ -12,3 +12,10 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /login
+Disallow: /signup
+Disallow: /select-clinic
+Disallow: /result
+Disallow: /dashboard
+Disallow: /clinic/
+Disallow: /admin/
