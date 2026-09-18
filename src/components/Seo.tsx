@@ -51,6 +51,11 @@ const publicMetadata: Record<string, Omit<SeoConfig, "indexable">> = {
     description:
       "Talk to the Clinexus team about simplifying your clinic operations, records, billing, and patient experience.",
   },
+  "/login": {
+    title: "Log in | Clinexus",
+    description:
+      "Log in to your Clinexus workspace to manage appointments, records, billing, labs, and inventory.",
+  },
   "/privacy": {
     title: "Privacy Policy | Clinexus",
     description: "Read how Clinexus protects clinic, staff, and patient information.",
@@ -62,7 +67,6 @@ const publicMetadata: Record<string, Omit<SeoConfig, "indexable">> = {
 };
 
 const privateRoute = (pathname: string) =>
-  pathname === "/login" ||
   pathname === "/signup" ||
   pathname === "/select-clinic" ||
   pathname === "/result" ||
