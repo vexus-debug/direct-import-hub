@@ -1,8 +1,8 @@
 import Layout from "@/site/components/Layout";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import {
 import { LocalSeo } from "@/site/components/LocalSeo";
+import {
   ArrowRight,
   MessageCircle,
   Check,
